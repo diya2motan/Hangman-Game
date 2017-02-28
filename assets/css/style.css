@@ -1,0 +1,41 @@
+body{
+	background-image: url("../images/footer_lodyas.png");
+	color: white;
+}
+
+p{
+	font-family: 'Caveat Brush', cursive;
+	font-size: 24px;
+}
+h1{
+	font-size: 50px;
+}
+.page-header{
+	font-size: x-large;
+	font-family: 'Caveat Brush', cursive;
+	color: white;
+	text-align: center;
+}
+
+.gameBodyRow{
+	min-height: 600px;
+	/*height: 100%;*/
+	border: 2px dashed white;
+}
+
+.gameBodyCol{
+	padding: 20px;
+	text-align: center;
+	border: 2px dashed white;
+	min-height: 600px;
+}
+#guessImage{
+
+	padding: 20px;
+	width: 250px;
+	height: 250px;
+}
+.getStarted{
+	font-family: 'Caveat Brush', cursive;
+	font-size: 30px;
+}

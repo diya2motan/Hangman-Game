@@ -1,0 +1,34 @@
+1- choose a theme.
+2- display what should be displayed on the page.
+3- create an array with the words needed.
+4- wins=0
+5- display dashes for current word(the guess) and store it in an array.
+6- number of guesses remaining=12.
+7- array for letters already guessed.
+8- array for letters guessed and correct.(length is equal to the word)
+9- store the guess in a variable.
+10- loop the words array length{//chose words one by one
+	loop(the number of geusses remaining){
+		press any key to start{
+			loop(array length){
+				if(array of letters ){
+
+				}
+				if (the the pressed letter is included in the array & not included in the letters already guessed){
+					get the index of this letter in the array
+					display it in the right position on the dashes
+					increment wins by 1
+					decrement number of guesses remaining by 1	
+					display it on the letters already guessed
+					break the loop
+				}
+				else{
+					decrement number of guesses by 1
+					update number of guesses remaining
+					break the loop
+				}
+			}//loop end	
+		}
+	}//end loop
+}//end loop
+
