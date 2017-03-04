@@ -7,11 +7,12 @@ body{
 	font-size: 60px;
     position: relative;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 1s;
 
 }
+
 @keyframes example {
-    0%   {transform: rotate(360deg);left: -400px;}
+    0%   {transform: rotate(360deg);left: 0px;}
     100% {left:0px;}
 }
 
@@ -32,7 +33,7 @@ h1{
 }
 
 .gameBodyRow{
-	min-height: 600px;
+	min-height: 700px;
 	/*height: 100%;*/
 	/*border: 0px dashed white;*/
 }
@@ -43,9 +44,14 @@ h1{
 	padding: 20px;
 	text-align: center;
 	border: 5px dotted white;
-	min-height: 600px;
+	min-height: 700px;
 }
 
+@keyframes imageEnim {
+    0%   {transform: rotate(360deg);left: 0px;}
+    50% {width:250px; height: 250px}
+    100% {left:0px;}
+}
 .gameBodyCol:first-child {
     border-right: 0 none;
 }
@@ -56,7 +62,12 @@ h1{
 	width: 200px;
 	height: 200px;
 }
-
+#guessImage{
+	font-size: 60px;
+    position: relative;
+    animation-name: imageEnim;
+    animation-duration: 1s;
+}
 #guessImage:hover{
 
 	padding: 20px;
